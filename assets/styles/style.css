@@ -7,3 +7,92 @@
     font-weight: 400;
     font-style: normal;
 }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "calt";
+    width: 100vw !important;
+
+}
+
+main .card-one,
+main .card-join {
+    background-color:#d4e9e2
+}
+
+main .text-color {
+    color:#1e3932;
+}
+
+main .text-one {
+    line-height: 1.75;
+}
+
+main .card-two {
+    background-color:#f4c5a1
+}
+
+main .card-two-title {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+main .text-two {
+    font-size: 24px; padding: 0 60px !important;
+}
+
+main .button {
+    transition: all .2s ease;
+}
+
+main .link-one {
+    min-width: 35px; 
+    min-height: 35px;
+    text-decoration: none
+}
+
+main .button:hover {
+    background-color: hsla(0, 0%, 46%, 0.185);
+
+}
+
+main .card-join-title {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+main .card-join-text {
+    letter-spacing: 0.5px;
+}
+
+main .card-join-link {
+    line-height: 1.75;
+    text-decoration: none;
+}
+
+main .last-card {
+    background-color:#ffffff
+}
+
+main .last-card-texto {
+    color:#000000;
+}
+
+main .last-card-texto-one {
+    font-weight: 400;line-height: 1.8; 
+}
